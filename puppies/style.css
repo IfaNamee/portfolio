@@ -1,0 +1,112 @@
+@import url('https://fornts. googleapis.com/css2?family=Montserrat: ital,wgth@0,300;1,300;1,600&display=swap');
+
+body{
+	font-family: source sans pro,sans-serif;
+	margin: 0;
+	background-color: gold;
+}
+h1{
+	text-align: center;
+}
+nav{
+	background-color: indigo;
+	border-top: 2px solid lightgreen;
+	border-bottom: 2px solid lightgreen;
+}
+main{
+	max-width: 1000px;
+	margin: 20px auto;
+}
+footer{
+	text-align: center;
+	border-top: 1px solid gray;
+	padding: 10px;
+	background-color: indigo;
+}
+nav ul{
+	list-style-type: none;
+	text-align: center;
+	margin: 10px;
+}
+nav li{
+	display: inline;
+}
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+}
+nav a:Link{
+	color: white;
+}
+nav a:visited{
+	color: white;
+}
+nav a:hover{
+	color: green;
+}
+nav a:active{
+	color: black;
+}
+i.fa{
+	font-size: 3em;
+}
+
+small {
+	color: white;
+}
+
+a {
+	color: lime;
+}
+
+blockquote a {
+	color: blue;
+}
+
+.img-fluid {
+	border-radius: 10px;
+	border-top: 2px solid lime;
+	border-left: 2px solid lime;
+	border-bottom: 2px solid orange;
+	border-right: 2px solid orange;
+}
+
+blockquote{
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 2em;
+	margin-inline-end: 2em;
+}
+
+.home-hero{
+	background-image: url(header.jpg);
+	height: 475px;
+	background-size: cover;
+	background-position: center;
+	padding: 10px, 10px, 10px, 30px;
+	box-shadow: 2px, 2px, 2px, 2px green;
+	border-radius: 10px;
+	border-top: 2px solid red;
+	border-left: 2px solid red;
+	border-bottom: 2px solid lime;
+	border-right: 2px solid lime;
+}
+
+.col-sm-4 h3 {
+	text-align: center;
+}
+
+@media only screen and (max-width: 1024px){
+	h1{
+		font-size: 2em;
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	h1{
+		font-size: 1.5em;
+		text-align: center;
+	}
+}

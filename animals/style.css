@@ -1,0 +1,137 @@
+@import url('https://fornts. googleapis.com/css2?family=Montserrat: ital,wgth@0,300;1,300;1,600&display=swap');
+
+body{
+	font-family: source sans pro,sans-serif;
+	margin: 0;
+	background-color: gray;
+}
+h1{
+	text-align: center;
+	font-family: Algerian;
+}
+
+nav{
+	background-color: lime;
+	border-top: 2px solid lightgreen;
+	border-bottom: 2px solid lightgreen;
+
+}
+main{
+	max-width: 1000px;
+	margin: 20px auto;
+	
+}
+footer{
+	text-align: center;
+	border-top: 1px solid gray;
+	padding: 10px;
+	background-color: lime;
+} 
+nav ul{
+	list-style-type: none;
+	text-align: center;
+	margin: 10px;
+}
+nav li{
+	display: inline;
+}
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+}
+nav a:Link{
+	color: red;
+}
+nav a:visited{
+	color: red;
+}
+nav a:hover{
+	color: green;
+}
+nav a:active{
+	color: black;
+}	
+
+blockquote {
+    display: block;
+    margin-block-start: 2em;
+    margin-block-end: 2em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    margin-top: 40px;
+    font-family: Agency FB;
+    color: white;
+}
+img {
+	border-radius: 10px;
+	border: 5px solid orange;
+}
+
+.col-sm-5 {
+	text-align: left;
+	margin-inline-start: 40px;
+}
+
+.gallery .preview{
+    width:100%
+    height:auto;
+    padding: 1px;
+}
+
+.gallery .gallery-thumbnails img {
+    width:100px;
+    height:75px;
+    margin: 15px 10px 10px 0;
+    border-radius: 10px;
+    border: none;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+    border-radius: 10px;
+    border: 5px solid yellow; 
+}
+
+.fa-camera-retro {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 6em;
+    text-rendering: auto;
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 30pex;
+    margin: 20px;
+   }
+
+
+.footer-bottom {
+	text-align: center;
+	background-color: orange;	
+}
+
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 1024px){
+	h1{
+		font-size: 2em;
+		text-align: center;
+	}
+}
+@media only screen and (max-width: 768px){
+	h1{
+		font-size: 1.5em;
+		text-align: center;
+	}
+}
