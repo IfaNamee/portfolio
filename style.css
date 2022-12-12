@@ -316,6 +316,12 @@ canvas {
 		margin-bottom: 15px;
 	}
 
+}
+/* JavaScript Game changes for mobile */
+.mobile{
+	display:none;
+}
+@media only screen and (max-width: 768px){
 	.desktop{
 		display:none;
 	}
@@ -323,6 +329,6 @@ canvas {
 		display: block;
 		touch-action: manipulation;
 	}
-
-
 }
+
+
